@@ -1,0 +1,102 @@
+\hypertarget{classsinsy_1_1JConf}{\section{sinsy\-:\-:\-J\-Conf \-Class \-Reference}
+\label{classsinsy_1_1JConf}\index{sinsy\-::\-J\-Conf@{sinsy\-::\-J\-Conf}}
+}
+\-Inheritance diagram for sinsy\-:\-:\-J\-Conf\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classsinsy_1_1JConf}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classsinsy_1_1JConf_a1bc3b834b00c92f78a42529252a89f95}{\-J\-Conf} (const std\-::string \&enc)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1JConf_a6bbe7a54ed73b9bccb6abf6c8ca5ff2a}{virtual \hyperlink{classsinsy_1_1JConf_a6bbe7a54ed73b9bccb6abf6c8ca5ff2a}{$\sim$\-J\-Conf} ()}\label{classsinsy_1_1JConf_a6bbe7a54ed73b9bccb6abf6c8ca5ff2a}
+
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+bool \hyperlink{classsinsy_1_1JConf_a472b3cdcb61dace17ade9a5998d417a5}{read} (const std\-::string \&table, const std\-::string \&conf, const std\-::string \&macron)
+\begin{DoxyCompactList}\small\item\em read phoneme table and config from files \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1JConf_afb3b14617a4c8617b46a037e9237b47a}{virtual bool \hyperlink{classsinsy_1_1JConf_afb3b14617a4c8617b46a037e9237b47a}{convert} (const std\-::string \&enc, \-Convertable\-List\-::iterator begin, \-Convertable\-List\-::iterator end) const }\label{classsinsy_1_1JConf_afb3b14617a4c8617b46a037e9237b47a}
+
+\begin{DoxyCompactList}\small\item\em convert lyrics to phonemes \end{DoxyCompactList}\item 
+virtual std\-::string \hyperlink{classsinsy_1_1JConf_abab4dec7dd8ea8ef959b8c95df34ae07}{get\-Sil\-Str} () const 
+\begin{DoxyCompactList}\small\item\em get sil str \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1JConf_a7e92eca34eb52c61e8f687814df10fab}{bool \hyperlink{classsinsy_1_1JConf_a7e92eca34eb52c61e8f687814df10fab}{check\-Encoding} (const std\-::string \&enc) const }\label{classsinsy_1_1JConf_a7e92eca34eb52c61e8f687814df10fab}
+
+\begin{DoxyCompactList}\small\item\em check encoding \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1JConf_ae68ae803221f37058ba940f981f2b96f}{const \hyperlink{classsinsy_1_1MultibyteCharRange}{\-Multibyte\-Char\-Range} \& \hyperlink{classsinsy_1_1JConf_ae68ae803221f37058ba940f981f2b96f}{get\-Multibyte\-Char\-Range} () const }\label{classsinsy_1_1JConf_ae68ae803221f37058ba940f981f2b96f}
+
+\begin{DoxyCompactList}\small\item\em get multibyte char range \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classsinsy_1_1JConf_a1bc3b834b00c92f78a42529252a89f95}{\index{sinsy\-::\-J\-Conf@{sinsy\-::\-J\-Conf}!\-J\-Conf@{\-J\-Conf}}
+\index{\-J\-Conf@{\-J\-Conf}!sinsy::JConf@{sinsy\-::\-J\-Conf}}
+\subsubsection[{\-J\-Conf}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-J\-Conf\-::\-J\-Conf} (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{enc}
+\end{DoxyParamCaption}
+)}}\label{classsinsy_1_1JConf_a1bc3b834b00c92f78a42529252a89f95}
+
+
+constructor 
+
+constructor
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em enc} & encoding strings (e.\-g. \char`\"{}utf\-\_\-8, utf8, utf-\/8\char`\"{}) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classsinsy_1_1JConf_abab4dec7dd8ea8ef959b8c95df34ae07}{\index{sinsy\-::\-J\-Conf@{sinsy\-::\-J\-Conf}!get\-Sil\-Str@{get\-Sil\-Str}}
+\index{get\-Sil\-Str@{get\-Sil\-Str}!sinsy::JConf@{sinsy\-::\-J\-Conf}}
+\subsubsection[{get\-Sil\-Str}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string {\bf \-J\-Conf\-::get\-Sil\-Str} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classsinsy_1_1JConf_abab4dec7dd8ea8ef959b8c95df34ae07}
+
+
+get sil str 
+
+get sil string
+
+return sil str 
+
+\-Implements \hyperlink{classsinsy_1_1IConf_a6b4b753e87291960ccc88867d97ef280}{sinsy\-::\-I\-Conf}.
+
+\hypertarget{classsinsy_1_1JConf_a472b3cdcb61dace17ade9a5998d417a5}{\index{sinsy\-::\-J\-Conf@{sinsy\-::\-J\-Conf}!read@{read}}
+\index{read@{read}!sinsy::JConf@{sinsy\-::\-J\-Conf}}
+\subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-J\-Conf\-::read} (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{table, }
+\item[{const std\-::string \&}]{conf, }
+\item[{const std\-::string \&}]{macron}
+\end{DoxyParamCaption}
+)}}\label{classsinsy_1_1JConf_a472b3cdcb61dace17ade9a5998d417a5}
+
+
+read phoneme table and config from files 
+
+read phoneme table and config from files
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em table} & phoneme table file path \\
+\hline
+{\em conf} & config file path \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+true if success 
+\end{DoxyReturn}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+lib/japanese/\-J\-Conf.\-h\item 
+lib/japanese/\-J\-Conf.\-cpp\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+After installation you can test SINSYG from the SINSYG top directory using the following command:
+
+sinsy -x dic/ -w g -l test.lab test/test.xml
+
+This will create a label file in test.lab from the XML file in test/test.xml

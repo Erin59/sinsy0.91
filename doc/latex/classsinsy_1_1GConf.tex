@@ -1,0 +1,126 @@
+\hypertarget{classsinsy_1_1GConf}{\section{sinsy\-:\-:\-G\-Conf \-Class \-Reference}
+\label{classsinsy_1_1GConf}\index{sinsy\-::\-G\-Conf@{sinsy\-::\-G\-Conf}}
+}
+\-Inheritance diagram for sinsy\-:\-:\-G\-Conf\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classsinsy_1_1GConf}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classsinsy_1_1GConf_a87bf34670529d2dc334e2aaa6fda748a}{\hyperlink{classsinsy_1_1GConf_a87bf34670529d2dc334e2aaa6fda748a}{\-G\-Conf} ()}\label{classsinsy_1_1GConf_a87bf34670529d2dc334e2aaa6fda748a}
+
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1GConf_af778492742a433b8f6e739e9ae55048d}{virtual \hyperlink{classsinsy_1_1GConf_af778492742a433b8f6e739e9ae55048d}{$\sim$\-G\-Conf} ()}\label{classsinsy_1_1GConf_af778492742a433b8f6e739e9ae55048d}
+
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+bool \hyperlink{classsinsy_1_1GConf_a6b4a07d1e386abd95d3d615e0f421e44}{convert} (const std\-::string \&enc, \-Convertable\-List\-::iterator begin, \-Convertable\-List\-::iterator end) const 
+\begin{DoxyCompactList}\small\item\em convert lyrics to phonemes \end{DoxyCompactList}\item 
+virtual std\-::string \hyperlink{classsinsy_1_1GConf_a0c0a0cbe05ace4e2e378bd5f82bc3bab}{get\-Sil\-Str} () const 
+\begin{DoxyCompactList}\small\item\em get sil str \end{DoxyCompactList}\item 
+bool \hyperlink{classsinsy_1_1GConf_a231b8129a04810396fc8cd366703c272}{read} (const std\-::string \&lexicon, const std\-::string \&phones, const std\-::string \&mapfilen)
+\begin{DoxyCompactList}\small\item\em read lexicon, vowels and \-German-\/\-Japanese mapping. \-Filenames are defined in \hyperlink{GConf_8h_source}{\-G\-Conf.\-h} \end{DoxyCompactList}\item 
+void \hyperlink{classsinsy_1_1GConf_aca80b35aa553ade0d65a001043bcbad4}{removechar} (std\-::string $\ast$word, char rchar)
+\begin{DoxyCompactList}\small\item\em remove char from string \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1GConf_ad6b242a11cb876dc4d971b3f3067403c}{void \hyperlink{classsinsy_1_1GConf_ad6b242a11cb876dc4d971b3f3067403c}{erasechar} (std\-::string $\ast$word, char rchar)}\label{classsinsy_1_1GConf_ad6b242a11cb876dc4d971b3f3067403c}
+
+\begin{DoxyCompactList}\small\item\em remove char from string \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classsinsy_1_1GConf_a6b4a07d1e386abd95d3d615e0f421e44}{\index{sinsy\-::\-G\-Conf@{sinsy\-::\-G\-Conf}!convert@{convert}}
+\index{convert@{convert}!sinsy::GConf@{sinsy\-::\-G\-Conf}}
+\subsubsection[{convert}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-G\-Conf\-::convert} (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{enc, }
+\item[{\-Convertable\-List\-::iterator}]{begin, }
+\item[{\-Convertable\-List\-::iterator}]{end}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classsinsy_1_1GConf_a6b4a07d1e386abd95d3d615e0f421e44}
+
+
+convert lyrics to phonemes 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em enc} & encoding \\
+\hline
+{\em begin} & begin of vector of \hyperlink{classsinsy_1_1IConvertable}{\-I\-Convertable} elements that have to be converted to \-German \\
+\hline
+{\em end} & end of the vector \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+true if success 
+\end{DoxyReturn}
+
+
+\-Implements \hyperlink{classsinsy_1_1IConf_a892ad5cc8098a0b2bb720deade6dc0ee}{sinsy\-::\-I\-Conf}.
+
+\hypertarget{classsinsy_1_1GConf_a0c0a0cbe05ace4e2e378bd5f82bc3bab}{\index{sinsy\-::\-G\-Conf@{sinsy\-::\-G\-Conf}!get\-Sil\-Str@{get\-Sil\-Str}}
+\index{get\-Sil\-Str@{get\-Sil\-Str}!sinsy::GConf@{sinsy\-::\-G\-Conf}}
+\subsubsection[{get\-Sil\-Str}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string {\bf \-G\-Conf\-::get\-Sil\-Str} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classsinsy_1_1GConf_a0c0a0cbe05ace4e2e378bd5f82bc3bab}
+
+
+get sil str 
+
+return sil str 
+
+\-Implements \hyperlink{classsinsy_1_1IConf_a6b4b753e87291960ccc88867d97ef280}{sinsy\-::\-I\-Conf}.
+
+\hypertarget{classsinsy_1_1GConf_a231b8129a04810396fc8cd366703c272}{\index{sinsy\-::\-G\-Conf@{sinsy\-::\-G\-Conf}!read@{read}}
+\index{read@{read}!sinsy::GConf@{sinsy\-::\-G\-Conf}}
+\subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-G\-Conf\-::read} (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{lexiconn, }
+\item[{const std\-::string \&}]{vowelsn, }
+\item[{const std\-::string \&}]{mapfilen}
+\end{DoxyParamCaption}
+)}}\label{classsinsy_1_1GConf_a231b8129a04810396fc8cd366703c272}
+
+
+read lexicon, vowels and \-German-\/\-Japanese mapping. \-Filenames are defined in \hyperlink{GConf_8h_source}{\-G\-Conf.\-h} 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em lexiconn} & name of lexicon file \\
+\hline
+{\em vowelsn} & name of vowels file \\
+\hline
+{\em mapfilen} & mapping between \-German and \-Japanese vowels \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+true if success 
+\end{DoxyReturn}
+\hypertarget{classsinsy_1_1GConf_aca80b35aa553ade0d65a001043bcbad4}{\index{sinsy\-::\-G\-Conf@{sinsy\-::\-G\-Conf}!removechar@{removechar}}
+\index{removechar@{removechar}!sinsy::GConf@{sinsy\-::\-G\-Conf}}
+\subsubsection[{removechar}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-G\-Conf\-::removechar} (
+\begin{DoxyParamCaption}
+\item[{std\-::string $\ast$}]{word, }
+\item[{char}]{rchar}
+\end{DoxyParamCaption}
+)}}\label{classsinsy_1_1GConf_aca80b35aa553ade0d65a001043bcbad4}
+
+
+remove char from string 
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em word} & string to remove from \\
+\hline
+{\em rchar} & char to remvoe \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+lib/german/\-G\-Conf.\-h\item 
+lib/german/\-G\-Conf.\-cpp\end{DoxyCompactItemize}

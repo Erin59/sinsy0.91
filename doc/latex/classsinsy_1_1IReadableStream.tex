@@ -1,0 +1,49 @@
+\hypertarget{classsinsy_1_1IReadableStream}{\section{sinsy\-:\-:\-I\-Readable\-Stream \-Class \-Reference}
+\label{classsinsy_1_1IReadableStream}\index{sinsy\-::\-I\-Readable\-Stream@{sinsy\-::\-I\-Readable\-Stream}}
+}
+\-Inheritance diagram for sinsy\-:\-:\-I\-Readable\-Stream\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classsinsy_1_1IReadableStream}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classsinsy_1_1IReadableStream_a07d70bcc08019730c2f2e68ac3f41b08}{virtual \hyperlink{classsinsy_1_1IReadableStream_a07d70bcc08019730c2f2e68ac3f41b08}{$\sim$\-I\-Readable\-Stream} ()}\label{classsinsy_1_1IReadableStream_a07d70bcc08019730c2f2e68ac3f41b08}
+
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+virtual size\-\_\-t \hyperlink{classsinsy_1_1IReadableStream_acdbc2655936e8b8bbda0148b2a9c6c59}{read} (void $\ast$buffer, size\-\_\-t byte)=0  throw (\-Stream\-Exception)
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classsinsy_1_1IReadableStream_acdbc2655936e8b8bbda0148b2a9c6c59}{\index{sinsy\-::\-I\-Readable\-Stream@{sinsy\-::\-I\-Readable\-Stream}!read@{read}}
+\index{read@{read}!sinsy::IReadableStream@{sinsy\-::\-I\-Readable\-Stream}}
+\subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}virtual size\-\_\-t {\bf sinsy\-::\-I\-Readable\-Stream\-::read} (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{buffer, }
+\item[{size\-\_\-t}]{byte}
+\end{DoxyParamCaption}
+)  throw ({\bf \-Stream\-Exception})\hspace{0.3cm}{\ttfamily  \mbox{[}pure virtual\mbox{]}}}}\label{classsinsy_1_1IReadableStream_acdbc2655936e8b8bbda0148b2a9c6c59}
+read data from stream
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em buffer} & buffer for read data \\
+\hline
+{\em byte} & byte you want to read \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Returns}
+read bytes (0 \-: end of stream) 
+\end{DoxyReturn}
+
+
+\-Implemented in \hyperlink{classsinsy_1_1InputFile_a034391207b94b6b99d8c4a0c0d6f2f44}{sinsy\-::\-Input\-File}.
+
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+lib/util/\-I\-Readable\-Stream.\-h\end{DoxyCompactItemize}

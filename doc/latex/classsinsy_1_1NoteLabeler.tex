@@ -1,0 +1,318 @@
+\hypertarget{classsinsy_1_1NoteLabeler}{\section{sinsy\-:\-:\-Note\-Labeler \-Class \-Reference}
+\label{classsinsy_1_1NoteLabeler}\index{sinsy\-::\-Note\-Labeler@{sinsy\-::\-Note\-Labeler}}
+}
+\-Inheritance diagram for sinsy\-:\-:\-Note\-Labeler\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classsinsy_1_1NoteLabeler}
+\end{center}
+\end{figure}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries \-Note\-Data}
+\item 
+class {\bfseries \-Position\-Adder}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a3cac0931abc74e5d2af1321739c66530}{typedef std\-::vector\*
+$<$ \hyperlink{classsinsy_1_1SyllableLabeler}{\-Syllable\-Labeler} $\ast$ $>$ {\bfseries \-List}}\label{classsinsy_1_1NoteLabeler_a3cac0931abc74e5d2af1321739c66530}
+
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classsinsy_1_1NoteLabeler_a657bab991e0cdd62069a5f69aa12d6ca}{\-Note\-Labeler} (const \hyperlink{classsinsy_1_1Beat}{\-Beat} \&b, const \hyperlink{classsinsy_1_1Dynamics}{\-Dynamics} \&d, const \hyperlink{classsinsy_1_1Key}{\-Key} \&k)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_aa3e344f5248b5e996fa945105e936a5e}{virtual \hyperlink{classsinsy_1_1NoteLabeler_aa3e344f5248b5e996fa945105e936a5e}{$\sim$\-Note\-Labeler} ()}\label{classsinsy_1_1NoteLabeler_aa3e344f5248b5e996fa945105e936a5e}
+
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_aef26082ba5e3ae1547922993f0c03214}{virtual bool \hyperlink{classsinsy_1_1NoteLabeler_aef26082ba5e3ae1547922993f0c03214}{is\-Rest} () const }\label{classsinsy_1_1NoteLabeler_aef26082ba5e3ae1547922993f0c03214}
+
+\begin{DoxyCompactList}\small\item\em is rest or not \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_aa237e645eec582031e05e873e98d510e}{virtual bool \hyperlink{classsinsy_1_1NoteLabeler_aa237e645eec582031e05e873e98d510e}{is\-Converted} () const }\label{classsinsy_1_1NoteLabeler_aa237e645eec582031e05e873e98d510e}
+
+\begin{DoxyCompactList}\small\item\em already converted or not \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_aa30afe19db901d524759dca56e91b2aa}{virtual std\-::string \hyperlink{classsinsy_1_1NoteLabeler_aa30afe19db901d524759dca56e91b2aa}{get\-Lyric} () const }\label{classsinsy_1_1NoteLabeler_aa30afe19db901d524759dca56e91b2aa}
+
+\begin{DoxyCompactList}\small\item\em get lyric \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a4aa0089013e5598ef7e517ffcef63dea}{virtual \hyperlink{classsinsy_1_1Syllabic}{\-Syllabic} \hyperlink{classsinsy_1_1NoteLabeler_a4aa0089013e5598ef7e517ffcef63dea}{get\-Syllabic} () const }\label{classsinsy_1_1NoteLabeler_a4aa0089013e5598ef7e517ffcef63dea}
+
+\begin{DoxyCompactList}\small\item\em get syllabic \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_ab27386272cbbee6f9b546dcbf3555e7e}{size\-\_\-t \hyperlink{classsinsy_1_1NoteLabeler_ab27386272cbbee6f9b546dcbf3555e7e}{get\-Duration} () const }\label{classsinsy_1_1NoteLabeler_ab27386272cbbee6f9b546dcbf3555e7e}
+
+\begin{DoxyCompactList}\small\item\em get duration \end{DoxyCompactList}\item 
+virtual void \hyperlink{classsinsy_1_1NoteLabeler_a5be5f059a3b710eb0ec054d508d63e1a}{add\-Info} (const std\-::vector$<$ \hyperlink{classsinsy_1_1PhonemeInfo}{\-Phoneme\-Info} $>$ \&phonemes, const std\-::string \&language, const std\-::string \&info)
+\begin{DoxyCompactList}\small\item\em add information \end{DoxyCompactList}\item 
+virtual void \hyperlink{classsinsy_1_1NoteLabeler_afce8f71c437e03b1acb894a5335cbe31}{set\-Label} (\hyperlink{classsinsy_1_1INoteLabel}{\-I\-Note\-Label} \&label) const 
+\begin{DoxyCompactList}\small\item\em set label \end{DoxyCompactList}\item 
+void \hyperlink{classsinsy_1_1NoteLabeler_a66723aa4d1f9f4327752b9ebb2ce0061}{add\-Note} (const \hyperlink{classsinsy_1_1Note}{\-Note} \&note, double tempo)
+\begin{DoxyCompactList}\small\item\em add note \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a39daa254597bd51f42c20002f6c47d84}{const \hyperlink{classsinsy_1_1Beat}{\-Beat} \& \hyperlink{classsinsy_1_1NoteLabeler_a39daa254597bd51f42c20002f6c47d84}{get\-Beat} () const }\label{classsinsy_1_1NoteLabeler_a39daa254597bd51f42c20002f6c47d84}
+
+\begin{DoxyCompactList}\small\item\em get beat \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_aeb8d197f49f778c75147b2556490bd55}{const \hyperlink{classsinsy_1_1Dynamics}{\-Dynamics} \& \hyperlink{classsinsy_1_1NoteLabeler_aeb8d197f49f778c75147b2556490bd55}{get\-Dynamics} () const }\label{classsinsy_1_1NoteLabeler_aeb8d197f49f778c75147b2556490bd55}
+
+\begin{DoxyCompactList}\small\item\em get dynamics \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a334deeb6e7d6a68b92cc8eba660d722d}{const \hyperlink{classsinsy_1_1Key}{\-Key} \& \hyperlink{classsinsy_1_1NoteLabeler_a334deeb6e7d6a68b92cc8eba660d722d}{get\-Key} () const }\label{classsinsy_1_1NoteLabeler_a334deeb6e7d6a68b92cc8eba660d722d}
+
+\begin{DoxyCompactList}\small\item\em get key \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a32b7b95829e4dcd5a5ac3b12e54c0b1a}{void \hyperlink{classsinsy_1_1NoteLabeler_a32b7b95829e4dcd5a5ac3b12e54c0b1a}{set\-Measure} (\hyperlink{classsinsy_1_1LabelMeasure}{\-Label\-Measure} $\ast$m)}\label{classsinsy_1_1NoteLabeler_a32b7b95829e4dcd5a5ac3b12e54c0b1a}
+
+\begin{DoxyCompactList}\small\item\em set measure \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a839e0a699b31045175072ee57b85f221}{void \hyperlink{classsinsy_1_1NoteLabeler_a839e0a699b31045175072ee57b85f221}{set\-Phrase} (\hyperlink{classsinsy_1_1NoteGroup}{\-Note\-Group} $\ast$ng)}\label{classsinsy_1_1NoteLabeler_a839e0a699b31045175072ee57b85f221}
+
+\begin{DoxyCompactList}\small\item\em set phrase \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a4e1024d0718e90a096488809973ee506}{void \hyperlink{classsinsy_1_1NoteLabeler_a4e1024d0718e90a096488809973ee506}{set\-Crescendo} (\hyperlink{classsinsy_1_1NoteGroup}{\-Note\-Group} $\ast$ng)}\label{classsinsy_1_1NoteLabeler_a4e1024d0718e90a096488809973ee506}
+
+\begin{DoxyCompactList}\small\item\em set crescendo \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_aa65646ae98b670691fb9fedbb113b8ae}{void \hyperlink{classsinsy_1_1NoteLabeler_aa65646ae98b670691fb9fedbb113b8ae}{set\-Diminuendo} (\hyperlink{classsinsy_1_1NoteGroup}{\-Note\-Group} $\ast$ng)}\label{classsinsy_1_1NoteLabeler_aa65646ae98b670691fb9fedbb113b8ae}
+
+\begin{DoxyCompactList}\small\item\em set diminuendo \end{DoxyCompactList}\item 
+void \hyperlink{classsinsy_1_1NoteLabeler_a150254899347367acf8ca1120d72e022}{set\-Prev\-Phrase} (const \hyperlink{classsinsy_1_1NoteGroup}{\-Note\-Group} $\ast$ng)
+\begin{DoxyCompactList}\small\item\em set prev phrase \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a725c30d75ab6605dc86431e76d37c4fa}{void \hyperlink{classsinsy_1_1NoteLabeler_a725c30d75ab6605dc86431e76d37c4fa}{set\-Next\-Phrase} (const \hyperlink{classsinsy_1_1NoteGroup}{\-Note\-Group} $\ast$ng)}\label{classsinsy_1_1NoteLabeler_a725c30d75ab6605dc86431e76d37c4fa}
+
+\begin{DoxyCompactList}\small\item\em set next phrase \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a60b5e5ecab863576ae53b5eda1031b8a}{const \hyperlink{classsinsy_1_1NoteGroup}{\-Note\-Group} $\ast$ \hyperlink{classsinsy_1_1NoteLabeler_a60b5e5ecab863576ae53b5eda1031b8a}{get\-Phrase} () const }\label{classsinsy_1_1NoteLabeler_a60b5e5ecab863576ae53b5eda1031b8a}
+
+\begin{DoxyCompactList}\small\item\em get phrase \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a6f822ab8d3a694b9a4a255b67f37045c}{\hyperlink{classsinsy_1_1Pitch}{\-Pitch} \hyperlink{classsinsy_1_1NoteLabeler_a6f822ab8d3a694b9a4a255b67f37045c}{get\-Pitch} () const }\label{classsinsy_1_1NoteLabeler_a6f822ab8d3a694b9a4a255b67f37045c}
+
+\begin{DoxyCompactList}\small\item\em get pitch \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a6ef98ccd80d5fda798c412c65cb18b5b}{void \hyperlink{classsinsy_1_1NoteLabeler_a6ef98ccd80d5fda798c412c65cb18b5b}{set\-Positions} ()}\label{classsinsy_1_1NoteLabeler_a6ef98ccd80d5fda798c412c65cb18b5b}
+
+\begin{DoxyCompactList}\small\item\em set positions \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_af656e318faf7d9afc078ae76dfd10445}{bool \hyperlink{classsinsy_1_1NoteLabeler_af656e318faf7d9afc078ae76dfd10445}{is\-Slur\-Start} () const }\label{classsinsy_1_1NoteLabeler_af656e318faf7d9afc078ae76dfd10445}
+
+\begin{DoxyCompactList}\small\item\em is slur start or not \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a9be513c0e60fb53ff13c41fae804183c}{bool \hyperlink{classsinsy_1_1NoteLabeler_a9be513c0e60fb53ff13c41fae804183c}{is\-Slur\-Stop} () const }\label{classsinsy_1_1NoteLabeler_a9be513c0e60fb53ff13c41fae804183c}
+
+\begin{DoxyCompactList}\small\item\em is slur stop or not \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a3ff27da70679310dd019fae2bc31eb44}{void \hyperlink{classsinsy_1_1NoteLabeler_a3ff27da70679310dd019fae2bc31eb44}{set\-In\-Slur\-From\-Prev} (bool b)}\label{classsinsy_1_1NoteLabeler_a3ff27da70679310dd019fae2bc31eb44}
+
+\begin{DoxyCompactList}\small\item\em set if this note is in slur from previous note or not \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a0b132a68721cd55597515f050eb39596}{void \hyperlink{classsinsy_1_1NoteLabeler_a0b132a68721cd55597515f050eb39596}{set\-In\-Slur\-To\-Next} (bool b)}\label{classsinsy_1_1NoteLabeler_a0b132a68721cd55597515f050eb39596}
+
+\begin{DoxyCompactList}\small\item\em set if this note is in slur to next note or not \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a4cfaaf6fb7f0c43dc27e8583456c89a6}{void \hyperlink{classsinsy_1_1NoteLabeler_a4cfaaf6fb7f0c43dc27e8583456c89a6}{set\-Prev\-Pitch} (const \hyperlink{classsinsy_1_1Pitch}{\-Pitch} \&p)}\label{classsinsy_1_1NoteLabeler_a4cfaaf6fb7f0c43dc27e8583456c89a6}
+
+\begin{DoxyCompactList}\small\item\em set previous pitch \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_aecd9c1c38124746b15e5cf9ed158b146}{void \hyperlink{classsinsy_1_1NoteLabeler_aecd9c1c38124746b15e5cf9ed158b146}{set\-Next\-Pitch} (const \hyperlink{classsinsy_1_1Pitch}{\-Pitch} \&p)}\label{classsinsy_1_1NoteLabeler_aecd9c1c38124746b15e5cf9ed158b146}
+
+\begin{DoxyCompactList}\small\item\em set next pitch \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_aeeb9701786f11b28567af19fde462883}{\hyperlink{classsinsy_1_1LabelPosition}{\-Label\-Position} \hyperlink{classsinsy_1_1NoteLabeler_aeeb9701786f11b28567af19fde462883}{get\-Length} () const }\label{classsinsy_1_1NoteLabeler_aeeb9701786f11b28567af19fde462883}
+
+\begin{DoxyCompactList}\small\item\em get length \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a71a9479c90f11c463f7c0b0bf7791171}{void \hyperlink{classsinsy_1_1NoteLabeler_a71a9479c90f11c463f7c0b0bf7791171}{set\-Next\-Accent\-Position} (const \hyperlink{classsinsy_1_1LabelPosition}{\-Label\-Position} \&p)}\label{classsinsy_1_1NoteLabeler_a71a9479c90f11c463f7c0b0bf7791171}
+
+\begin{DoxyCompactList}\small\item\em set next accent position \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_af1c1addbc22436b34a6745516575df6c}{void \hyperlink{classsinsy_1_1NoteLabeler_af1c1addbc22436b34a6745516575df6c}{set\-Prev\-Accent\-Position} (const \hyperlink{classsinsy_1_1LabelPosition}{\-Label\-Position} \&p)}\label{classsinsy_1_1NoteLabeler_af1c1addbc22436b34a6745516575df6c}
+
+\begin{DoxyCompactList}\small\item\em set previous accent position \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a9440199882ee72394e65b909a850eae6}{void \hyperlink{classsinsy_1_1NoteLabeler_a9440199882ee72394e65b909a850eae6}{set\-Next\-Staccato\-Position} (const \hyperlink{classsinsy_1_1LabelPosition}{\-Label\-Position} \&p)}\label{classsinsy_1_1NoteLabeler_a9440199882ee72394e65b909a850eae6}
+
+\begin{DoxyCompactList}\small\item\em set next staccato position \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_abb3aa7af6ac0a0dc232bee355f754f45}{void \hyperlink{classsinsy_1_1NoteLabeler_abb3aa7af6ac0a0dc232bee355f754f45}{set\-Prev\-Staccato\-Position} (const \hyperlink{classsinsy_1_1LabelPosition}{\-Label\-Position} \&p)}\label{classsinsy_1_1NoteLabeler_abb3aa7af6ac0a0dc232bee355f754f45}
+
+\begin{DoxyCompactList}\small\item\em set previous staccato position \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_aa86d0a233d1668cefba30448ae22e633}{size\-\_\-t \hyperlink{classsinsy_1_1NoteLabeler_aa86d0a233d1668cefba30448ae22e633}{get\-Syllable\-Num} () const }\label{classsinsy_1_1NoteLabeler_aa86d0a233d1668cefba30448ae22e633}
+
+\begin{DoxyCompactList}\small\item\em get number of syllables \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a2bbb700b2b7821989fc483e73956026d}{bool \hyperlink{classsinsy_1_1NoteLabeler_a2bbb700b2b7821989fc483e73956026d}{has\-Accent} () const }\label{classsinsy_1_1NoteLabeler_a2bbb700b2b7821989fc483e73956026d}
+
+\begin{DoxyCompactList}\small\item\em has accent or not \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_aeceb66873cede3f7cea5f586238df450}{bool \hyperlink{classsinsy_1_1NoteLabeler_aeceb66873cede3f7cea5f586238df450}{has\-Staccato} () const }\label{classsinsy_1_1NoteLabeler_aeceb66873cede3f7cea5f586238df450}
+
+\begin{DoxyCompactList}\small\item\em has staccato or not \end{DoxyCompactList}\item 
+bool \hyperlink{classsinsy_1_1NoteLabeler_a967b7e5375d754eed4df1a123b06ac91}{has\-Breath\-To\-Next} () const 
+\begin{DoxyCompactList}\small\item\em if this note has breath between this and next node, return true. \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a8582f7667aec7650595d3e040f47b946}{void \hyperlink{classsinsy_1_1NoteLabeler_a8582f7667aec7650595d3e040f47b946}{set\-Prev\-Note} (const \hyperlink{classsinsy_1_1NoteLabeler}{\-Note\-Labeler} $\ast$prev)}\label{classsinsy_1_1NoteLabeler_a8582f7667aec7650595d3e040f47b946}
+
+\begin{DoxyCompactList}\small\item\em set previous note (null -\/$>$ this is the head note) \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_a4dbe152f588f27032b014279fe6fc91b}{void \hyperlink{classsinsy_1_1NoteLabeler_a4dbe152f588f27032b014279fe6fc91b}{set\-Next\-Note} (const \hyperlink{classsinsy_1_1NoteLabeler}{\-Note\-Labeler} $\ast$next)}\label{classsinsy_1_1NoteLabeler_a4dbe152f588f27032b014279fe6fc91b}
+
+\begin{DoxyCompactList}\small\item\em set next note (null -\/$>$ this is the tail note) \end{DoxyCompactList}\item 
+const \hyperlink{classsinsy_1_1LabelPosition}{\-Label\-Position} \& \hyperlink{classsinsy_1_1NoteLabeler_af3687d74b7cff50bd6797d5a77e54163}{get\-Measure\-Idx} () const 
+\begin{DoxyCompactList}\small\item\em ... \end{DoxyCompactList}\item 
+void \hyperlink{classsinsy_1_1NoteLabeler_acafb879727f06489887e3177ce15f8a3}{move\-To} (\hyperlink{classsinsy_1_1NoteLabeler}{\-Note\-Labeler} \&, size\-\_\-t=0)
+\begin{DoxyCompactList}\small\item\em ... \end{DoxyCompactList}\item 
+\hypertarget{classsinsy_1_1NoteLabeler_ad2d131247f0b2bfa19e4bbc9ab323006}{void \hyperlink{classsinsy_1_1NoteLabeler_ad2d131247f0b2bfa19e4bbc9ab323006}{set\-Breath\-Phoneme} ()}\label{classsinsy_1_1NoteLabeler_ad2d131247f0b2bfa19e4bbc9ab323006}
+
+\begin{DoxyCompactList}\small\item\em set breath phoneme to the tail of the last syllable \end{DoxyCompactList}\item 
+\-List\-::const\-\_\-iterator \hyperlink{classsinsy_1_1NoteLabeler_ae585d35c99fe782630e435d0dc81f4a5}{child\-Begin} () const 
+\begin{DoxyCompactList}\small\item\em get begin iteration \end{DoxyCompactList}\item 
+\-List\-::const\-\_\-iterator \hyperlink{classsinsy_1_1NoteLabeler_ad321546de9365caf2f46d1d5cf255996}{child\-End} () const 
+\begin{DoxyCompactList}\small\item\em get end iteration \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classsinsy_1_1NoteLabeler_a657bab991e0cdd62069a5f69aa12d6ca}{\index{sinsy\-::\-Note\-Labeler@{sinsy\-::\-Note\-Labeler}!\-Note\-Labeler@{\-Note\-Labeler}}
+\index{\-Note\-Labeler@{\-Note\-Labeler}!sinsy::NoteLabeler@{sinsy\-::\-Note\-Labeler}}
+\subsubsection[{\-Note\-Labeler}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Note\-Labeler\-::\-Note\-Labeler} (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Beat} \&}]{b, }
+\item[{const {\bf \-Dynamics} \&}]{d, }
+\item[{const {\bf \-Key} \&}]{k}
+\end{DoxyParamCaption}
+)}}\label{classsinsy_1_1NoteLabeler_a657bab991e0cdd62069a5f69aa12d6ca}
+
+
+constructor 
+
+constructor
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em b} & beat \\
+\hline
+{\em d} & dynamics \\
+\hline
+{\em k} & key \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classsinsy_1_1NoteLabeler_a5be5f059a3b710eb0ec054d508d63e1a}{\index{sinsy\-::\-Note\-Labeler@{sinsy\-::\-Note\-Labeler}!add\-Info@{add\-Info}}
+\index{add\-Info@{add\-Info}!sinsy::NoteLabeler@{sinsy\-::\-Note\-Labeler}}
+\subsubsection[{add\-Info}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Note\-Labeler\-::add\-Info} (
+\begin{DoxyParamCaption}
+\item[{const std\-::vector$<$ {\bf \-Phoneme\-Info} $>$ \&}]{phonemes, }
+\item[{const std\-::string \&}]{language, }
+\item[{const std\-::string \&}]{info}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classsinsy_1_1NoteLabeler_a5be5f059a3b710eb0ec054d508d63e1a}
+
+
+add information 
+
+add information
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em phonemes} & phoneme list \\
+\hline
+{\em language} & language \\
+\hline
+{\em info} & language dependent information \\
+\hline
+\end{DoxyParams}
+
+
+\-Implements \hyperlink{classsinsy_1_1IConvertable_ae0326517f226fc7f569b5886084d6135}{sinsy\-::\-I\-Convertable}.
+
+\hypertarget{classsinsy_1_1NoteLabeler_a66723aa4d1f9f4327752b9ebb2ce0061}{\index{sinsy\-::\-Note\-Labeler@{sinsy\-::\-Note\-Labeler}!add\-Note@{add\-Note}}
+\index{add\-Note@{add\-Note}!sinsy::NoteLabeler@{sinsy\-::\-Note\-Labeler}}
+\subsubsection[{add\-Note}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Note\-Labeler\-::add\-Note} (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Note} \&}]{note, }
+\item[{double}]{tempo}
+\end{DoxyParamCaption}
+)}}\label{classsinsy_1_1NoteLabeler_a66723aa4d1f9f4327752b9ebb2ce0061}
+
+
+add note 
+
+add note
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em note} & note \\
+\hline
+{\em tempo} & tempo \\
+\hline
+\end{DoxyParams}
+\hypertarget{classsinsy_1_1NoteLabeler_ae585d35c99fe782630e435d0dc81f4a5}{\index{sinsy\-::\-Note\-Labeler@{sinsy\-::\-Note\-Labeler}!child\-Begin@{child\-Begin}}
+\index{child\-Begin@{child\-Begin}!sinsy::NoteLabeler@{sinsy\-::\-Note\-Labeler}}
+\subsubsection[{child\-Begin}]{\setlength{\rightskip}{0pt plus 5cm}\-Note\-Labeler\-::\-List\-::const\-\_\-iterator {\bf \-Note\-Labeler\-::child\-Begin} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classsinsy_1_1NoteLabeler_ae585d35c99fe782630e435d0dc81f4a5}
+
+
+get begin iteration 
+
+get begin iterator of syllables \hypertarget{classsinsy_1_1NoteLabeler_ad321546de9365caf2f46d1d5cf255996}{\index{sinsy\-::\-Note\-Labeler@{sinsy\-::\-Note\-Labeler}!child\-End@{child\-End}}
+\index{child\-End@{child\-End}!sinsy::NoteLabeler@{sinsy\-::\-Note\-Labeler}}
+\subsubsection[{child\-End}]{\setlength{\rightskip}{0pt plus 5cm}\-Note\-Labeler\-::\-List\-::const\-\_\-iterator {\bf \-Note\-Labeler\-::child\-End} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classsinsy_1_1NoteLabeler_ad321546de9365caf2f46d1d5cf255996}
+
+
+get end iteration 
+
+get end iterator of syllables \hypertarget{classsinsy_1_1NoteLabeler_af3687d74b7cff50bd6797d5a77e54163}{\index{sinsy\-::\-Note\-Labeler@{sinsy\-::\-Note\-Labeler}!get\-Measure\-Idx@{get\-Measure\-Idx}}
+\index{get\-Measure\-Idx@{get\-Measure\-Idx}!sinsy::NoteLabeler@{sinsy\-::\-Note\-Labeler}}
+\subsubsection[{get\-Measure\-Idx}]{\setlength{\rightskip}{0pt plus 5cm}const {\bf \-Label\-Position} \& {\bf \-Note\-Labeler\-::get\-Measure\-Idx} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classsinsy_1_1NoteLabeler_af3687d74b7cff50bd6797d5a77e54163}
+
+
+... 
+
+get measure index \hypertarget{classsinsy_1_1NoteLabeler_a967b7e5375d754eed4df1a123b06ac91}{\index{sinsy\-::\-Note\-Labeler@{sinsy\-::\-Note\-Labeler}!has\-Breath\-To\-Next@{has\-Breath\-To\-Next}}
+\index{has\-Breath\-To\-Next@{has\-Breath\-To\-Next}!sinsy::NoteLabeler@{sinsy\-::\-Note\-Labeler}}
+\subsubsection[{has\-Breath\-To\-Next}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-Note\-Labeler\-::has\-Breath\-To\-Next} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classsinsy_1_1NoteLabeler_a967b7e5375d754eed4df1a123b06ac91}
+
+
+if this note has breath between this and next node, return true. 
+
+has breath between this and next notes or not \hypertarget{classsinsy_1_1NoteLabeler_acafb879727f06489887e3177ce15f8a3}{\index{sinsy\-::\-Note\-Labeler@{sinsy\-::\-Note\-Labeler}!move\-To@{move\-To}}
+\index{move\-To@{move\-To}!sinsy::NoteLabeler@{sinsy\-::\-Note\-Labeler}}
+\subsubsection[{move\-To}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Note\-Labeler\-::move\-To} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-Note\-Labeler} \&}]{target, }
+\item[{size\-\_\-t}]{duration\-Start\-Idx = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classsinsy_1_1NoteLabeler_acafb879727f06489887e3177ce15f8a3}
+
+
+... 
+
+move to target \hypertarget{classsinsy_1_1NoteLabeler_afce8f71c437e03b1acb894a5335cbe31}{\index{sinsy\-::\-Note\-Labeler@{sinsy\-::\-Note\-Labeler}!set\-Label@{set\-Label}}
+\index{set\-Label@{set\-Label}!sinsy::NoteLabeler@{sinsy\-::\-Note\-Labeler}}
+\subsubsection[{set\-Label}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Note\-Labeler\-::set\-Label} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-I\-Note\-Label} \&}]{label}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classsinsy_1_1NoteLabeler_afce8f71c437e03b1acb894a5335cbe31}
+
+
+set label 
+
+set label
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em label} & label \\
+\hline
+\end{DoxyParams}
+\hypertarget{classsinsy_1_1NoteLabeler_a150254899347367acf8ca1120d72e022}{\index{sinsy\-::\-Note\-Labeler@{sinsy\-::\-Note\-Labeler}!set\-Prev\-Phrase@{set\-Prev\-Phrase}}
+\index{set\-Prev\-Phrase@{set\-Prev\-Phrase}!sinsy::NoteLabeler@{sinsy\-::\-Note\-Labeler}}
+\subsubsection[{set\-Prev\-Phrase}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Note\-Labeler\-::set\-Prev\-Phrase} (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Note\-Group} $\ast$}]{ng}
+\end{DoxyParamCaption}
+)}}\label{classsinsy_1_1NoteLabeler_a150254899347367acf8ca1120d72e022}
+
+
+set prev phrase 
+
+set previous phrase 
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+lib/label/\-Note\-Labeler.\-h\item 
+lib/label/\-Note\-Labeler.\-cpp\end{DoxyCompactItemize}
